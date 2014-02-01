@@ -1,0 +1,16 @@
+*.pid
+*.py[cod]
+*.swp
+*~
+output
+bin
+include
+lib
+local
+output
+pelican-plugins
+src
+themes
+Makefile
+fabfile.py
+fabfile.py
