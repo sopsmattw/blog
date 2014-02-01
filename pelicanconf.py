@@ -80,7 +80,7 @@ TAGS_SAVE_AS = 'tags/index.html'
 CATEGORIES_SAVE_AS = 'categories/index.html'
 ARCHIVES_SAVE_AS = 'archives/index.html'
 
-ARTICLE_EDIT_LINK = 'https://github.com/frommelmak/frommelmak-blog/edit/master/content/posts/%(slug)s.md'
+ARTICLE_EDIT_LINK = 'https://github.com/frommelmak/blog/edit/master/content/posts/%(slug)s.md'
 GOOGLE_SEARCH = 'partner-pub-2082790787711438:7148578903'
 #LEFT_SIDEBAR=""" """
 DISQUS_SITENAME = "frommelmak"
