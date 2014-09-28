@@ -1,4 +1,4 @@
-Title: lsof practical usage examples 
+Title: lsof: Practical usage examples 
 Date: 2014-06-03 19:53:00
 Category: English
 Tags: lsof, sysadmin, tools 
