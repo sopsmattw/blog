@@ -14,4 +14,4 @@ Since those early days I've been using this blog to write some blog entries abou
 Nowadays I've replaced my beloved blog engine with a simple static site generator called [Pelican](http://getpelican.com) with no database and no server-side logic requirements.
 The new blog uses the beautifull theme [Plumage](https://github.com/kdeldycke/plumage) by Kevin Deldycke. On the other hand the blog content is hosted on [GitHub](https://github.com/frommelmak/blog).
 
-All the technical entries have been migrated into the new blog but if you want, you can still visit the old blog [here](http://nomeriasdeti.no-ip.com).
+All the technical entries have been migrated into the new blog but if you want, you can still visit the old blog [here](http://old.frommmelmak.com).

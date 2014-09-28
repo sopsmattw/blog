@@ -53,7 +53,7 @@ RELATED_POSTS_MAX = 3
 MENUITEMS = (
     ('Home', '/'),
     ('Wiki', 'http://wiki.frommelmak.com'),
-    ('Old Blog', 'http://nomeriasdeti.no-ip.com'),
+    ('Old Blog', 'http://old.frommelmak.com'),
 )
 TWITTER_USERNAME = "frommelmak"
 GITHUB_URL = "https://github.com/frommelmak"
