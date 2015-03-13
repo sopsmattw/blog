@@ -43,7 +43,7 @@ Creamos la solicitud de firma del certificado: Certificate Signing Request (CSR)
     ::::bash
     openssl req -sha256 -new -key my-private-key-file.pem -out csr.pem
 
-Este proceso nos realizará un una serie de preguntas. Hemos de prestar especial atención al valore que introducimos para:
+Este proceso nos realizará un una serie de preguntas. Hemos de prestar especial atención al valor que introducimos para:
 
   + Common Name
 
