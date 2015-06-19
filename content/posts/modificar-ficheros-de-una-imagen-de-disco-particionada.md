@@ -1,4 +1,4 @@
-Title: Modificar ficheros de imagen de disco particionada
+Title: Modificar ficheros de una imagen de disco particionada
 Date: 2015-06-12 11:28:00
 Category: Spanish 
 Tags: dd, mount, fdisk, raspberrypi 
