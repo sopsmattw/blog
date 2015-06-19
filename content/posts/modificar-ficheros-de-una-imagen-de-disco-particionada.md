@@ -39,7 +39,7 @@ Multiplicamos el tamaño del bloque (512 bytes) por el número de sectores en el
 Utilizaremos este número para montar sólo el filesystem que nos interesa.
 
     ::::bash
-    sudo mount -o loop,offset=62914560 ra-collector-image-2015-04-20.img IMG/
+    sudo mount -o loop,offset=62914560 image-file.img IMG/
 
 Hacemos los cambios y desmontamos.
 
