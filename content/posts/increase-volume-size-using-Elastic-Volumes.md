@@ -4,12 +4,12 @@ Category: English
 Tags: ext4, lvm, ebs, aws, filesystem, maintenance
 Author: frommelmak
 
-On February 2017, AWS [announced](https://aws.amazon.com/blogs/aws/amazon-ebs-update-new-elastic-volumes-change-everything/) the availability of a new EBS feature called Elastic Volumes. The new feature allows you to increase the size, performance and type and of your EBS volumes while in use. In order to take adantage of this great featrue some requisites needs to be done.
+On February 2017, AWS [announced](https://aws.amazon.com/blogs/aws/amazon-ebs-update-new-elastic-volumes-change-everything/) the availability of a new EBS feature called Elastic Volumes. The new feature allows you to increase the size, performance and type and of your EBS volumes while in use. In order to take adantage of this great feature some requisites needs to be done.
 
-  - The volume needs to be attached to a compatible instane: C1, C3, CC2, CR1, G2, I2, M1, M3 y R3 and later. 
+  - The volume needs to be attached to a compatible instance: C1, C3, CC2, CR1, G2, I2, M1, M3 y R3 and later. 
   - The volume was attached to the instance after the November 1 of 2016.
 
-To modify the volumen size just modify the volumen size using the Modify Volume action on the AWS Console.
+To modify the volumen size just type the new volumen size using the "Modify Volume" action on the AWS Console.
 
 ![EBS volume resize](/images/ebs-resize.png)
 
