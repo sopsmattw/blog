@@ -13,7 +13,7 @@ To modify the volumen size just modify the volumen size using the Modify Volume 
 
 ![EBS volume resize](/images/ebs-resize.png)
 
-Note: depending on the new size the action can take several hours.
+Note: depending on the new size the action can takes several hours.
 
 Once the action completes, log into the instance and expand de filesystem. In my case since I'm using LVM I need to expand the physical and logical volumes.
 
