@@ -2,13 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Marcos Mart\xednez'
+AUTHOR = u'Marcos Martinez'
 SITENAME = u'frommelmak'
-SITEURL = ''
+SITEURL = 'http://frommelmak.com'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'es'
 USE_FOLDER_AS_CATEGORY = False
-ARTICLE_DIR = 'posts'
+#ARTICLE_DIR = 'posts'
+ARTICLE_PATHS = ['content/posts']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -45,7 +46,8 @@ SITESUBTITLE = "Yet another Melmacian interested in technology..."
 
 #PAGE_DIR = 'pages'
 
-PLUGIN_PATH = "pelican-plugins"
+#PLUGIN_PATH = "pelican-plugins"
+PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ["neighbors","related_posts"]
 
 RELATED_POSTS_MAX = 3
