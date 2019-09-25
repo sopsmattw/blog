@@ -8,8 +8,13 @@ I'll try to show you how to use nginx's log and map modules to put different hea
 
 Imagine you have two kind of http request. One provides some info in an optional http header (like referer), since the other put the same info in a custom header (like client).
 
+```
 curl --referer client-xxx http://someserver/some_resource
+```
+
+```
 curl --header "client: client-xxx" http://someserver/someresource
+```
 
 Nginx sets incoming headers to variables so you can use $http_referer and $http_client in the log_format definition
 
@@ -48,9 +53,9 @@ Values can be setted using an existing var, so you can do something like this:
     ~^client-* $http_referer;
     default $http_client;
   }
-```
 
 log_format my_format '$msec|$bytes_sent|$client|$remote_addr|$uri';
+```
 
 If the referer exists and starts with the pattern "client-", then the value is assigned to a new var called $client if not, the client header will be used as the value of the new $client var.
 
