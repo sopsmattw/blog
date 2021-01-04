@@ -4,12 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marcos Martinez'
 SITENAME = u'frommelmak'
-SITEURL = 'http://frommelmak.com'
+SITEURL = 'https://frommelmak.com'
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'es'
 USE_FOLDER_AS_CATEGORY = False
 #ARTICLE_DIR = 'posts'
 ARTICLE_PATHS = ['content/posts']
+PAGE_PATHS = ['content/pages']
+DISPLAY_PAGES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -54,8 +56,6 @@ RELATED_POSTS_MAX = 3
 
 MENUITEMS = (
     ('Home', '/'),
-    ('Wiki', 'http://wiki.frommelmak.com'),
-    ('Old Blog', 'http://old.frommelmak.com'),
 )
 TWITTER_USERNAME = "frommelmak"
 GITHUB_URL = "https://github.com/frommelmak"
