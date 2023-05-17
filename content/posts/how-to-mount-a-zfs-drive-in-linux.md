@@ -43,7 +43,7 @@ Start the zfs fuse daemon:
 Force the command using the -f flag and the pool identifier
 
     :::bash
-    super8:~ # zpool -f import 16911161038176216381
+    super8:~ # zpool import -f 16911161038176216381
 
 Verify that everithing look normal:
 
